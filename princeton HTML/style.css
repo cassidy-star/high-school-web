@@ -1,0 +1,148 @@
+ /* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+
+
+
+body{
+	text-align: center;
+	background-color: white;
+}
+header{
+	height: 250px;
+}
+
+.carousel-inner{
+	height:250px ;
+}
+
+#myCarousel{
+	width:1300px;
+	height: 250px;
+	margin-left:-85px;
+	margin-bottom: 400px;
+}
+
+.nav-item{
+	float: right;
+	margin-right: 50px;
+	margin-left: 25px;
+	font-size: 18px;
+}
+.navbar{
+	background-color:#ffa31a;
+
+}
+.Homecontainer{
+	margin:5%;
+}
+
+#heads{color: #ffb84d }
+
+
+.container2{
+	background-color: pink;
+	margin-top:-1px;
+	margin-left:2%;  
+	width: 700px;
+}
+
+.col-8{background-color:white;
+
+}
+#accordion{
+	margin:10%;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+.card2{
+	margin:6%;
+	background-color: #e0e0eb;
+	width: 90%;
+
+}
+.address{
+	margin: 6%;
+	width: 35%;
+	height:auto;
+}
+.genRow{
+	margin:5%;
+}
+.carouselContainer{
+	width:30%;
+	margin:3%;
+}
+#table{
+	width:60%;
+	height:auto;
+	margin-top:2%;
+	margin-left:20%;
+}
+#jumbo{
+	width: 75%;
+	height:auto;
+	margin-left:14%;
+}
+#progress{
+	width:65%;
+	height:9%;
+	background-color: ;
+	margin-left: 8%;
+	font-size: 12px;
+	border-radius: 5%;
+
+}
+
+.border{
+	margin:2%;
+}
+.cardPic{
+	margin:8%;
+}
+.row1{
+	margin-left:37%;
+}
+
+.row.vdivide [class*='col-']:not(:last-child):after {
+  background: #e0e0e0;
+  width: 2px;
+  content: "";
+  display:block;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  min-height: 70px;
+}
+
+#about{
+	margin:3%;
+}
+
+.containerS{
+	margin:8%;
+	height: 45%;
+}
+.address{
+	width: 75%;
+	height: auto;
+	margin: 8%;
+}
+
+
